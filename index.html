@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luis Enrique Flemate Yañez</title>
+    <link rel="stylesheet" href="style/style.css">
+    
 </head>
+
 <style>
-    .mycontainer {
-  display: flex;
-}
-.mycontainer > div {
-  width:33%;
-}
-    body {background-image:url(fondo1.jpg);
-           background-attachment: fixed;
-           background-repeat: no-repeat;
-           background-size: cover;}
+    
+    body{
+        background-image: url("fondo2.jpg");
+    }
+
 </style>
+
 <body>
-    <h1 style="background-color: azure;">Luis Enrique Flemate Yañez</h1>
+    <h1 style="background-color: rgb(241, 240, 255);">Luis Enrique Flemate Yañez</h1>
      
     <img src="foto_jpg.jpg" alt="foto" style="width: 125px; height: 125px;">
     <img src="programador1.gif" alt="programador1" style="float:right; width: 250px; height: 125px;">
 
 
-     <h2 style="color: azure;">Portafolio</h2>
+<section>                                           
+    <h2 style="color: azure;">Portafolio</h2>
+</section>
+     
 
-<div class="mycontainer">
+<div class="main">
 
     <div style="background-color: azure; padding: 20px; width: 250px; margin: auto;">
         <h3>Yo</h3>
@@ -38,26 +40,30 @@
 
     <hr>
 
-    <div style="background-color: turquoise; margin: auto; padding: 10px;">  
-        <h3>Links</h3> 
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/luis-enrique-flemate-y%C3%A1%C3%B1ez-6941501b2/">Linkedin</a>
-            </li>
-            <li>
-                <a href="https://github.com/k1k3fy">Github</a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/">Instagram</a>
-            </li>
-        </ul>
-
-        <hr>
-
+    <div class="menu">
+            <div style="background-color: turquoise; margin: auto; padding: 20px;"> 
+                <h3>Links</h3> 
+                <ul>
+                    <li>
+                        <a id="#u-list" class="links" href="https://www.linkedin.com/in/luis-enrique-flemate-y%C3%A1%C3%B1ez-6941501b2/">Linkedin</a>
+                    </li>
+                    <li>
+                        <a class="links" href="https://github.com/k1k3fy">Github</a>
+                    </li>
+                    <li>
+                        <a class="links" href="https://www.instagram.com/">Instagram</a>
+                    </li>
+                </ul>
         
-    </div>
+                <hr>
+        
+                
+            </div>
 
-    <div>
+    
+
+    <div style="overflow: auto;">
+        <div class="right">
         <h3>Projects</h3> 
         <ol>
             <li>
